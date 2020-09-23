@@ -28,6 +28,14 @@ main
     padding: 2%;
 }
 
+fieldset
+{
+	padding: 1em;
+	margin: 1em;
+	border-radius: 5px;
+	border-color: #bdbdbd;
+}
+
 .input-group, .textarea-group
 {
     padding: 1% 0;

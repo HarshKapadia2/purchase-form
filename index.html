@@ -23,34 +23,42 @@
 			<div id="error"></div>
 
             <form action="" method="" class="form">
-                <div class="input-group">
-                    <input type="text" name="customer-name" id="customer-name" placeholder="Full name" autofocus>
-                    <label for="first-name">Name<sup>*</sup></label>
-				</div>
+				<fieldset>
+					<legend>&nbsp;Personal info&nbsp;</legend>
+
+					<div class="input-group">
+						<input type="text" name="customer-name" id="customer-name" placeholder="Full name" autofocus>
+						<label for="first-name">Name<sup>*</sup></label>
+					</div>
+
+					<div class="input-group">
+						<input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+						<label for="e-mail">e-mail<sup>*</sup></label>
+					</div>
+				</fieldset>
 				
-                <div class="input-group">
-                    <input type="text" name="item-name" id="item-name" placeholder="Item name">
-                    <label for="first-name">Item name<sup>*</sup></label>
-                </div>
-                
-                <div class="input-group">
-                    <input type="number" name="qty" id="qty" placeholder="Quantity in Grams">
-                    <label for="qty">Quantity (in Grams)<sup>*</sup></label>
-                </div>
+				<fieldset>
+					<legend>&nbsp;Item details&nbsp;</legend>
 
-                <div class="input-group">
-                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
-                    <label for="e-mail">e-mail<sup>*</sup></label>
-                </div>
+					<div class="input-group">
+						<input type="text" name="item-name" id="item-name" placeholder="Item name">
+						<label for="first-name">Item name<sup>*</sup></label>
+					</div>
+					
+					<div class="input-group">
+						<input type="number" name="qty" id="qty" placeholder="Quantity in Grams">
+						<label for="qty">Quantity (in Grams)<sup>*</sup></label>
+					</div>
 
-                <div class="textarea-group">
-                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
-                    <label for="message">Message</label>
-                </div>
-
-                <div class="button-div">
-                    <button type="submit">Purchase</button>
-                </div>
+					<div class="textarea-group">
+						<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+						<label for="message">Message</label>
+					</div>
+				</fieldset>
+				
+				<div class="button-div">
+					<button type="submit">Purchase</button>
+				</div>
             </form>
         </main>
     </body>

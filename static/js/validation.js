@@ -21,8 +21,8 @@ purchaseBtn.addEventListener
 		else if(itemName.value.length < 2 || customerName.value.length < 2)
 			error.innerText = "Name has to be more than 1 character in length...";
 
-		else if(nameRE.test(name.value))
-			error.innerText = "Numbers are not allowed in name...";
+		else if(nameRE.test(customerName.value))
+			error.innerText = "Numbers are not allowed in customer's name...";
 
 		else if(qty.value <= 0)
 			error.innerText = "Quantity cannot be less than or equal to zero...";

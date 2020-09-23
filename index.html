@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="purchase, form, harsh kapadia, html, css, js, vanilla css">
+        <meta name="description" content="A purchase form by Harsh Kapadia">
+        <meta name="author" content="Harsh Kapadia">
+
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./static/css/base.css">
+		<link rel="stylesheet" href="./static/css/main.css">
+		
+		<script defer src="./static/js/validation.js"></script>
+        
+        <title>Purchase form</title>
+    </head>
+
+    <body>
+        <main>
+			<div class="title">Purchase Item</div>
+			
+			<div id="error"></div>
+
+            <form action="" method="" class="form">
+                <div class="input-group">
+                    <input type="text" name="customer-name" id="customer-name" placeholder="Full name">
+                    <label for="first-name">Name<sup>*</sup></label>
+				</div>
+				
+                <div class="input-group">
+                    <input type="text" name="item-name" id="item-name" placeholder="Item name">
+                    <label for="first-name">Item name<sup>*</sup></label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="number" name="qty" id="qty" placeholder="Quantity in Grams">
+                    <label for="qty">Quantity (in Grams)<sup>*</sup></label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <label for="e-mail">e-mail<sup>*</sup></label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Purchase</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
